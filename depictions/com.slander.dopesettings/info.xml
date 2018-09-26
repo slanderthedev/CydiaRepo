@@ -1,0 +1,21 @@
+<package>
+	<id>com.slander.dopesettings</id>
+	<name>MemeSettings</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>Spice up the settings view. Changes cell names in the settings app to spice it up a bit. Compatible with iOS 9/10/11.</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>IMG_0609.PNG</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+</package>

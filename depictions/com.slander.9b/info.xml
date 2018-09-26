@@ -1,0 +1,16 @@
+<package>
+	<id>com.slander.9b</id>
+	<name>9Banners</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>iOS 9 banners for iOS 10</description>
+	</descriptionlist>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+</package>

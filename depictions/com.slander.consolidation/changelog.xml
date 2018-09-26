@@ -1,0 +1,106 @@
+<changelog>
+	<changes>
+		<version>1.9-2</version>
+		<change>Fixed compatibility issues. Will fix when I get to work on an update for iOS 11.</change>
+	</changes>
+	<changes>
+		<version>1.9-1</version>
+		<change>Grammar fixes and updated Twitter info.</change>
+	</changes>
+	<changes>
+		<version>1.9</version>
+		<change>Tiny changes. </change>
+	</changes>
+	<changes>
+		<version>1.8</version>
+		<change>Minor changes and fixes. </change>
+	</changes>
+	<changes>
+		<version>1.7</version>
+		<change>Fixed ‘Disable Auto Dismiss’ this option now prevents notifications from being clear on the LS unless manually cleared (perpetual). 
+				Added conflict with perpetual10Lite. 
+				Added initial support for CalendarForLockscreen2 (its still a little buggy). 
+				Added version number on the root preference page. 
+				Fixed some issues with the default colors. 
+				Added option to disable the animation when selecting apps. 
+				Added option to change badge size. 
+				Adjusted badge position to look more like a badge. </change>
+	</changes>
+	<changes>
+		<version>1.6</version>
+		<change>Updated Compatibility with libCSPreferences. 
+				Added Tap To Open feature for opening notifications with a tap. 
+				Added respring option in all the settings pages (a respring is required for most changes to take effect). 
+				Changed keyboard type in preferences to decimal pad, and added a negative toggle for fields requiring negatives. 
+				Fixed coloring option for selection view. 
+				Added unselected app color option for setting different colors for app selection view. 
+				Added option to disable the ‘All Notifications' section. 
+				Added option to disable hiding of the chevron in Notification Center. 
+				Added ColorBadges support back in. 
+				Refactored App View to better support loading of preferences. 
+				Fixed a few bugs in the IconProvider. there was an issue where icons would randomly stop loading, that should be fixed now. 
+				Fixed Vertical Adjustment options not applying in some cases. 
+				Fixed issue where the NC would use the settings for the lockscreen. 
+				Fixed issue where NC was stuck with below style icons. 
+				Fixed issue where disabling LS or NC would break user interaction. 
+				Hopefully fixed crash that would sometimes occur when receiving/removing notifications (you may now receive an alert showing an error message, this is intentional). 
+				Slowly getting rid of ugly global variables, I don’t care for those. 
+				Hopefully fixed issue where swiping notifications would not always invoke the notification. </change>
+	</changes>
+	<changes>
+		<version>1.5</version>
+		<change>Rewrote the App Selection View from the ground up using MVC guidelines. 
+				Fixed privacy mode allowing the notification to flash on screen briefly. 
+				Added Badge Customization options (native badges will be added during beta). 
+				Added selection view customization options. 
+				Fixed selection vie being cut off when selecting large as the icon size. 
+				Added an all notifications section which will be replacing (Show all when not selected). 
+				Major performance improvements throughout the tweak. 
+				Added iPhone 7 Taptic support (legacy haptics will be added in the future). 
+				Added an internal icon provider library for fetching icons (no longer depends on AppList). 
+				Improved caching of icons. 
+				Improved icon fetching (should no longer be capable of missing icons). 
+				Improved layout of cells, its now a bit faster and doesn't shrink the cells like in alpha 4. 
+				Resprings are annoying I know, live reloading is planned for beta phases, some options already support live reloading. 
+				Improved layout constraints, hopefully will fix some layout issues on the LockScreen. 
+				Adjusted the Notification Center layout down a bit. 
+				Probably a lot more that I've already forgotten since alpha 5 took so long to prepare. </change>
+	</changes>
+	<changes>
+		<version>1.4</version>
+		<change>fixed enable switches not working as intended (the global enable switch is still broken). 
+				everything is now laid out using constraints, this should fix a lot of wonky layout issues. 
+				bunch of small fixes and shuffling of the preferences. 
+				added proper depiction. 
+				tons of refactoring and tiny little optimizations. </change>
+	</changes>
+	<changes>
+		<version>1.3</version>
+		<change>most of the LockScreen portion of the tweak has been rewritten. 
+				the bug causing password prompt to appear should now be completely fixed. 
+				all notifications will now have icons (any missing icons will use the small image from the notification itself, i'm working on finding larger versions.) for now some icons will look blurry. 
+				added option to send all notifications to the LockScreen even while unlocked. 
+				added option to prevent notifications from auto-dismissing such as when you launch an app all its notifications wont be cleared. 
+				improved notification area resizing and positioning, it should no longer break scrolling. 
+				show all when not selected is not broken, it just doesn't work when privacyMode is enabled. 
+				privacy mode is mostly fixed, though it will still flash on screen for a brief moment when receiving notifications. 
+				further improved performance of pull to clear.</change>
+	</changes>
+	<changes>
+		<version>1.2</version>
+		<change>converted the project to ARC (no more double pointers). 
+				fixed password prompt nagging. 
+				added privacy mode back in (requires Deselect on Unlock to be enabled in order to work correctly) will improve later. 
+				added vertical adjustment options for notification area. 
+				greatly improved handling of pull to clear (i did notice it would not always clear notifications from Extender Reloaded) let me know if your having isses with this. 
+				major refactoring throughout the project. 
+				added option to disable hint text ('press/slide to open' text on notifications). 
+				added option to color the pull to clear (x). 
+				added option to color app selection color. 
+				libCSColorPicker is now used in this project, and is added as a dependency. this should fix the preference bundle errors that some of you were having. </change>
+	</changes>
+	<changes>
+		<version>1.0</version>
+		<change>Initial Release</change>
+	</changes>
+</changelog>

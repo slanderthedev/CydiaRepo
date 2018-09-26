@@ -1,0 +1,8 @@
+Origin: Slander's Cydia Repo
+Label: Slander's Cydia Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Repo made for tweaks, themes, and memes.

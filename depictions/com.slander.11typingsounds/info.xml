@@ -1,0 +1,16 @@
+<package>
+	<id>com.slander.11typingsounds</id>
+	<name>11typingsounds</name>
+	<version>1.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>Fix to restore iOS 11 typing sounds due to issue with 9SysSounds. Added locking sound!</description>
+	</descriptionlist>
+	<changelog>
+		<change>Added locking sound!</change>
+	</changelog>
+</package>

@@ -1,0 +1,34 @@
+<package>
+	<id>com.slander.consolidation</id>
+	<name>Consolidation</name>
+	<version>1.9-2</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>10.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>MobileSubstrate, PreferenceLoader, libCSPreferences, libCSColorpicker, at least iOS 10</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Organize and sort notifications on the LS and NC. This is still a work in progress, I hope you guys enjoy. :).</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>IMG_0607.PNG</image>
+		</screenshot>		
+		<screenshot>
+			<description>Don't mind the female as the screenshot. She's my bestfriend.</description>
+			<image>IMG_0608.PNG</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>Fixed compatibility issues. Will fix when I get to work on an update for iOS 11.</change>
+	</changelog>
+	<links>
+		<link>
+			<name>MemeSettings</name>
+			<url>https://slanderdev.github.io/repo/depictions/?p=com.slander.dopesettings</url>
+		</link>
+	</links>
+</package>
