@@ -1,0 +1,23 @@
+<package>
+	<id>com.slander.climax</id>
+	<name>Climax</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>Search porn on your favorite porn sites!</description>
+	</descriptionlist>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
