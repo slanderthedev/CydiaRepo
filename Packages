@@ -87,16 +87,15 @@ Author: Slander <tyler.clinton@icloud.com>
 Name: 11TypingSounds
 
 Package: com.slander.climax
-Version: 1.0
+Name: Climax
+Version: 1.1
+Filename: debs/com.slander.climax_1.1_iphoneos-arm.deb
 Architecture: iphoneos-arm
-Maintainer: Slander <tyler.clinton@icloud.com>
-Depends: firmware (>= 10), mobilesubstrate
-Filename: debs/com.slander.climax_1.0_iphoneos-arm.deb
-Size: 200935
-MD5sum: 0303be8d9c1a0c930b20e72f90ac2c53
-SHA256: 2fa2a3f2280f85d76eee705621763f2d4ab7072c79507fd96d5940e95d7dbe3b
-Section: System
-Depiction: https://slanderthedev.github.io/repo/depictions/?p=com.slander.climax
 Description: Search porn on your favorite porn sites!
 Author: Slander <tyler.clinton@icloud.com>
-Name: Climax
+Size: 13334196
+MD5sum: d68c49efb875a9030e046df3ff050e6f
+SHA256: 9388b56cd00a6290a8dcf117096ddf1b9952039970ae35b23e539c198e181406
+Section: System
+Depends: firmware (>= 10), mobilesubstrate
+Depiction: https://slanderthedev.github.io/repo/depictions/?p=com.slander.climax
