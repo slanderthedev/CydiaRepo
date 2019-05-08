@@ -99,18 +99,3 @@ SHA256: 9388b56cd00a6290a8dcf117096ddf1b9952039970ae35b23e539c198e181406
 Section: System
 Depends: firmware (>= 10), mobilesubstrate
 
-Package: com.slander.spoofthatsnap
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Kanji <kanjithedev@gmail.com>
-Depends: firmware (>= 9), mobilesubstrate
-Filename: debs/com.kanji.spoofthatstory_1.0_iphoneos-arm.deb
-Size: 9852
-MD5sum: 2f0c9b2d52707b5d7a043997c8832ba5
-SHA256: bc82690a1249be3ac918b7d40ebdcbdab5d4ebaefce70a071229fcbc21e7421b
-Section: Tweaks
-Depiction: https://kanjithedev.github.io/repo/depictions/?p=com.kanji.spoofthatstory
-Description: Choose how many views/screenshots you have on your Snapchat story!
-Author: Kanji <kanjithedev@gmail.com>
-Name: Spoof That Snap
-
