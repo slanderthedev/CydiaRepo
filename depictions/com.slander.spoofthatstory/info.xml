@@ -1,0 +1,16 @@
+<package>
+	<id>com.kanji.spoofthatsnap</id>
+	<name>Spoof That Snap</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>Choose how many views/screenshots you have on your Snapchat story!</description>
+	</descriptionlist>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+</package>
