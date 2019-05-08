@@ -98,4 +98,3 @@ MD5sum: d68c49efb875a9030e046df3ff050e6f
 SHA256: 9388b56cd00a6290a8dcf117096ddf1b9952039970ae35b23e539c198e181406
 Section: System
 Depends: firmware (>= 10), mobilesubstrate
-
