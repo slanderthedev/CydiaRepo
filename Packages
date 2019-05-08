@@ -99,7 +99,7 @@ SHA256: 9388b56cd00a6290a8dcf117096ddf1b9952039970ae35b23e539c198e181406
 Section: System
 Depends: firmware (>= 10), mobilesubstrate
 
-Package: com.kanji.spoofthatsnap
+Package: com.slander.spoofthatsnap
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Kanji <kanjithedev@gmail.com>
