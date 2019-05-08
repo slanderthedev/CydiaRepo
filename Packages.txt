@@ -1,0 +1,100 @@
+Package: com.slander.libcscolorpicker
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Slander <tyler.clinton@icloud.com>
+Filename: debs/com.slander.libcscolorpicker_1.0_iphoneos-arm.deb
+Size: 81714
+MD5sum: c93af426d12d35051bf87544e7c7acaf
+SHA256: 2a89a29aebe07fdcc9c7df816c6e5e8a938dcbf3bfc2f359e0bcd96c475d9b78
+Section: System
+Depiction: https://slanderthedev.github.io/repo/depictions/?p=com.slander.libcscolorpicker
+Description: This may be needed for some tweaks.
+Author: Slander <tyler.clinton@icloud.com>
+Name: libCSColorPicker
+
+Package: com.slander.libcspreferences
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Slander <tyler.clinton@icloud.com>
+Filename: debs/com.slander.libcspreferences_1.0_iphoneos-arm.deb
+Size: 379124
+MD5sum: 9f8097a6b7fc9b53711e76a001dfbc04
+SHA256: c73399ad7e0f2a36adf8fe0120c7a8f97512301abace5c4154f01cbdba547ad6
+Section: System
+Depiction: https://slanderthedev.github.io/repo/depictions/?p=com.slander.libcspreferences
+Description: This may be needed for some tweaks.
+Author: Slander <tyler.clinton@icloud.com>
+Name: libCSPreferences
+
+Package: com.slander.consolidation
+Name: Consolidation
+Version: 1.9-2
+Architecture: iphoneos-arm
+Maintainer: Slander <tyler.clinton@icloud.com>
+Depends: firmware (<= 10.3.3), mobilesubstrate, preferenceloader, applist, com.slander.libcspreferences, com.slander.libcscolorpicker
+Filename: debs/com.slander.consolidation_1.9-2_iphoneos-arm.deb
+Size: 232020
+MD5sum: 6eca871d3f075782a8ea614ccb950e80
+SHA256: 78834fea8123fc1f4c2c5806fa3672769e1fc53428d43b398edbb172c97a9d65
+Section: Tweaks
+Depiction: https://slanderthedev.github.io/repo/depictions/?p=com.slander.consolidation
+Description: Organize and sort notifications on the LS and NC. This is still a work in progress, I hope you guys enjoy. :)
+Author: Slander <tyler.clinton@icloud.com>
+
+Package: com.slander.dopesettings
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: Slander <tyler.clinton@icloud.com>
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/com.slander.dopesettings_0.0.4_iphoneos-arm.deb
+Size: 9044
+MD5sum: efc2af56597afc6f2ce97336f56d22e0
+SHA256: c6eeb448e77ecada07e740e749fbd6f06f61646d3572385b96504a31a6578613
+Section: Tweaks
+Depiction:https://slanderthedev.github.io/repo/depictions/?p=com.slander.dopesettings
+Description: Spice up the settings view. Changes cell names in the settings app to spice it up a bit. Compatible with iOS 9/10/11
+Author: Slander <tyler.clinton@icloud.com>
+Name: MemeSettings
+
+Package: com.slander.9b
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Slander <tyler.clinton@icloud.com>
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/com.slander.9b_0.0.1_iphoneos-arm.deb
+Size: 6204
+MD5sum: 19452d40943367709ce16e4da32578a8
+SHA256: ed37c808ed1764830048a7e7b9572e5d78f82f754ce5728871ad86baba7048a9
+Section: Tweaks
+Depiction: https://slanderthedev.github.io/repo/depictions/?p=com.slander.9b
+Description: iOS 9 banners for iOS 10
+Author: Slander <tyler.clinton@icloud.com>
+Name: 9Banners
+
+Package: com.slander.11typingsounds
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Slander <tyler.clinton@icloud.com>
+Depends: firmware (>= 11), mobilesubstrate
+Filename: debs/com.slander.11typingsounds_1.1_iphoneos-arm.deb
+Size: 53402
+MD5sum: 1a58b028b96c09dffabf4f4506a5efdb
+SHA256: 5daa8eb5f231235c4521381268907a85d623a8d1a65994a2bb6ce22cf52185c9
+Section: Tweaks
+Depiction: https://slanderthedev.github.io/repo/depictions/?p=com.slander.11typingsounds
+Description: Fix to restore iOS 11 typing sounds due to issue with 9SysSounds
+Author: Slander <tyler.clinton@icloud.com>
+Name: 11TypingSounds
+
+Package: com.slander.climax
+Name: Climax
+Version: 1.1
+Filename: debs/com.slander.climax_1.1_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Description: Search porn on your favorite porn sites!
+Author: Slander <tyler.clinton@icloud.com>
+Size: 13334196
+MD5sum: d68c49efb875a9030e046df3ff050e6f
+SHA256: 9388b56cd00a6290a8dcf117096ddf1b9952039970ae35b23e539c198e181406
+Section: System
+Depends: firmware (>= 10), mobilesubstrate
